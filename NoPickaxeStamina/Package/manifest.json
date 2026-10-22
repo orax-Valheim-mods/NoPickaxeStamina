@@ -2,8 +2,8 @@
   "name": "NoPickaxeStamina",
   "description": "Removes stamina consumption when using pickaxes.",
   "version_number": "0.1.0",
-  "website_url": "",
+  "website_url": "https://github.com/orax-Valheim-mods/NoPickaxeStamina",
   "dependencies": [
-    "denikson-BepInExPack_Valheim-5.4.2333"
+    "denikson-BepInExPack_Valheim-5.4.2351"
   ]
 }
