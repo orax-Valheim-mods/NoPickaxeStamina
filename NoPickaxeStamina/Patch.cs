@@ -12,7 +12,10 @@ internal class Patch
     {
         private static void Postfix(ref Attack __instance, ref float __result)
         {
-            if (__instance.m_character?.GetCurrentWeapon()?.m_shared?.m_skillType == Skills.SkillType.Pickaxes)
+            if (
+                __instance.m_character?.GetCurrentWeapon()?.m_shared?.m_skillType
+                == Skills.SkillType.Pickaxes
+            )
             {
                 __result = 0f;
             }

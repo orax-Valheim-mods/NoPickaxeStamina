@@ -1,6 +1,6 @@
+using System.Reflection;
 using BepInEx;
 using HarmonyLib;
-using System.Reflection;
 
 namespace NoPickaxeStamina;
 
@@ -25,4 +25,3 @@ internal class NoPickaxeStamina : BaseUnityPlugin
         _harmony?.UnpatchSelf();
     }
 }
-
